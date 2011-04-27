@@ -1,0 +1,17 @@
+Reminder Bot
+Just add reminder@asheesh.in to your friendlist in gmail and start using the service. To start just type 'hi' or 'help'.
+
+How to use:
+The possible ways of using it are:
+   1. remind <time> <message>
+   2. remind rec <count> <time> <message>
+The first one is for one time reminders and second one for recursive reminders.
+
+
+<time> can be either [0-9]<sec|min|hour> or <absolute time>
+
+e.g.
+
+    * remind 10hour pay phone bill   ---- It will remind you after 10hours to pay your phone bill
+    * remind 20:00 book movie ticket   --- reminds you to book ticket at 8PM
+    * remind rec 5 11:00 project meeting     --- reminds you at 11AM for next 5days for project meeting
